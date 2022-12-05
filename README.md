@@ -5,7 +5,14 @@ permalink: index.html
 ---
 # GovTech’s STACK The Flags 2022
 
-![Scoreboard](images/scoreboard.png)
+## Ranking
+
+![](images/ranking.png)
+
+
+## Scoreboard
+
+![](images/scoreboard.png)
 
 ## Our Team
 
@@ -13,7 +20,7 @@ permalink: index.html
 | :-: | :-: | :-: | :-: |
 | [@rizemon](https://github.com/rizemon) | [@kelvneo](https://github.com/kelvneo) | [@3m0W33D](https://github.com/3m0W33D) | [@arraysius](https://github.com/arraysius) |
 
-## Challenges
+## Challenges (32/55 flags submitted)
 
 ### [Fullpwn](fullpwn/)
 - [x] [Beauty Care](fullpwn/Beauty%20Care/)
@@ -37,6 +44,7 @@ permalink: index.html
 - [x] [Magic Lock](pwn/Magic%20Lock/)
 - [ ] Jaga Almighty's Pwn Adventure
 - [ ] Cursed Grimoires
+- [ ] Book Author [HTB]
 
 ### [Cryptography](crypto/)
 - [x] [Pad the Flag](crypto/Pad%20the%20Flag/)
@@ -52,6 +60,7 @@ permalink: index.html
 - [ ] Emulator
 - [ ] Still Water
 - [ ] Alchemnesia
+- [ ] Straight Shooter [HTB]
 
 ### [Forensics](forensics/)
 - [x] [Hit you with that](forensics/Hit%20you%20with%20that/)
@@ -80,7 +89,7 @@ permalink: index.html
 ### [Hardware](hardware/)
 - [x] [Jaga's Lovely Bike](hardware/Jaga's%20Lovely%20Bike/)
 - [ ] Quantum Watch
-- [ ] Open Sesame
+- [ ] Open Sesame [HTB]
 
 ### [Cloud](cloud/)
 - [x] [Secret of Meow Olympurr](cloud/Secret%20of%20Meow%20Olympurr/)
