@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hardware
-nav_order: 10
+nav_order: 11
 has_toc: false
 has_children: true
 permalink: /:path/

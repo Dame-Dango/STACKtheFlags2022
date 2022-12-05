@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cloud
-nav_order: 11
+nav_order: 12
 has_toc: false
 has_children: true
 permalink: /:path/
