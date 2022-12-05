@@ -2,7 +2,7 @@
 layout: default
 title: jagacha
 permalink: /:path/
-parent: Cryptography
+parent: Crypto
 nav_order: 1
 ---
 # jagacha

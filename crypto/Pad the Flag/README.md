@@ -2,7 +2,7 @@
 layout: default
 title: Pad the Flag
 permalink: /:path/
-parent: Cryptography
+parent: Crypto
 nav_order: 2
 ---
 # Pad the Flag
