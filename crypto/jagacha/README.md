@@ -7,7 +7,7 @@ nav_order: 1
 ---
 # jagacha
 
-> Points: 275 [1000]
+> Points: 375 [1000]
 
 ## Description
 
