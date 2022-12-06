@@ -7,6 +7,6 @@ has_children: true
 permalink: /:path/
 ---
 # Forensics
-- [x] [Hit you with that](Hit%20you%20with%20that/)
-- [x] [Cobalt Struck](Cobalt%20Struck/)
+- [x] Hit you with that
+- [x] Cobalt Struck
 - [ ] The Empire is at risk [HTB]

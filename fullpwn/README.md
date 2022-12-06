@@ -7,6 +7,6 @@ has_children: true
 permalink: /:path/
 ---
 # Fullpwn
-- [x] [Beauty Care](Beauty%20Care/)
+- [x] Beauty Care
 - [ ] Electrogrid
 - [ ] Lookout

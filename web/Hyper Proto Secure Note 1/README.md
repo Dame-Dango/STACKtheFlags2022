@@ -1,1 +1,0 @@
-> An evil organization has been plotting to pollute the nearby village with its smog engine. Our intelligence team tells us that they have found that the smog engine has an exposed RDP service, and they have the username but not the password. The password is stored in the secure note application that bob uses. Find a way to steal the password to turn off the smog machine.

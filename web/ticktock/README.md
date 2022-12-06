@@ -1,1 +1,0 @@
-> Looks like you can log in without any extra hints. Just remember to keep track of the time you spend on this challenge. Don't get too carried away!

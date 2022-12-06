@@ -32,7 +32,7 @@ $ diff web_blogpost/src/app/index.js web_blogpost2/src/app/index.js
 >         "default-src 'self'; script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self';"
 ```
 
-This affects our payload works as this meant that the browser will no longer execute inline javascript.
+This affects our payload as this meant that the browser will no longer execute our inline javascript.
 
 ![](2022-12-06-17-28-53.png)
 
@@ -61,4 +61,3 @@ After clicking on `Create` and browsing to the blog page, we see a new post by t
 
 ## Flag
 `STF22{f4k3_fl4g_f0r_t3st1ng}`
-
