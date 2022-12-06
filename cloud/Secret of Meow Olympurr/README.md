@@ -18,6 +18,23 @@ nav_order: 1
 
 ## Solution
 
+- [Secret of Meow Olympurr](#secret-of-meow-olympurr)
+  - [Description](#description)
+  - [Solution](#solution)
+    - [d2p9lw76n0gfo0.cloudfront.net](#d2p9lw76n0gfo0cloudfrontnet)
+    - [meowolympurr.z23.web.core.windows.net (Part 1)](#meowolympurrz23webcorewindowsnet-part-1)
+    - [olympurr-app.azurewebsites.net](#olympurr-appazurewebsitesnet)
+    - [meowolympurr.z23.web.core.windows.net (Part 2)](#meowolympurrz23webcorewindowsnet-part-2)
+    - [meowolympurr.blob.core.windows.net](#meowolympurrblobcorewindowsnet)
+    - [Signing in to Azure](#signing-in-to-azure)
+    - [`scm-releases` container](#scm-releases-container)
+    - [Analyzing source code](#analyzing-source-code)
+    - [Extracting the _AWS Secret Access Key_ from the _Azure Key Vault_](#extracting-the-aws-secret-access-key-from-the-azure-key-vault)
+    - [Enumerating AWS Account](#enumerating-aws-account)
+    - [Finding the secret AWS lambda function within AWS Log Groups](#finding-the-secret-aws-lambda-function-within-aws-log-groups)
+  - [Flag](#flag)
+
+
 ### d2p9lw76n0gfo0.cloudfront.net
 
 Browsing to the given URL, we are presented with what seems to be a page about cats? 
