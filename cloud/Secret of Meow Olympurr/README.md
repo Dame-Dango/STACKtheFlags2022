@@ -13,7 +13,7 @@ nav_order: 1
 
 > Jaga reached Meow Olympurr and met some native Meows. While cautious at first, they warmed up and shared that they have recently created a website to promote tourism!
 > However, the young Meows explained that they are not cy-purr security trained and would like to understand what they might have misconfigured in their environments. The young Meows were trying to get two different environments to work together, but it seems like something is breaking....
-> Log a cy-purr security case by invoking the mysterious function and retrieve the secret code!
+> Log a cy-purr security case by invoking the mysterious function and retrieve the secret code!  
 > d2p9lw76n0gfo0.cloudfront.net
 
 ## Solution
