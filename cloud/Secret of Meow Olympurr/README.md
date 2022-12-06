@@ -737,9 +737,9 @@ $ aws iam get-policy-version --policy-arn arn:aws:iam::908166204863:policy/azure
 }
 ```
 
-However, what stood out the `logs:Describe*` allow permissions, which meant that we could enumerate something about the logs?
+However, what stood out the `logs:Describe*` allow permissions, so perhaps we could find something useful within the logs?
 
-### Finding secret AWS lambda function within AWS Log Groups
+### Finding the secret AWS lambda function within AWS Log Groups
 
 ```bash
 $ aws logs describe-log-groups
@@ -768,11 +768,12 @@ We observe that there are 2 log groups that are of interest:
 * `/aws/lambda/event-webservice` 
 * `/aws/lambda/internal-secret-of-MeowOlympurr-webservice`
 
-Knowing that there was a AWS lambda function called `event-webservice` from the source code that we extracted earlier, could there be a `internal-secret-of-MeowOlympurr-webservice` AWS lambda function?
+Knowing that there was a AWS lambda function called `event-webservice` from the source code that we extracted earlier, could there be a `internal-secret-of-MeowOlympurr-webservice` AWS lambda function as well?
 
 ```bash
 $ aws lambda invoke \
-    --function-name internal-secret-of-MeowOlympurr-webservice --invocation-type RequestResponse \
+    --function-name internal-secret-of-MeowOlympurr-webservice \
+    --invocation-type RequestResponse \
     /dev/stdout
 {
     "statusCode": 200,
