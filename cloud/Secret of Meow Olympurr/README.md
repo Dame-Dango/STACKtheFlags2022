@@ -792,7 +792,5 @@ $ aws lambda invoke \
 
 Turns out simply triggering `internal-secret-of-MeowOlympurr-webservice` AWS lambda function without any payload gave us the flag.
 
-### 
-
 ## Flag
 `STF22{LIveInTh3Me0wmen7_:3}`
